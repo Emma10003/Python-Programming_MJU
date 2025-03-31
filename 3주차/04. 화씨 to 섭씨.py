@@ -4,5 +4,5 @@ ctemp = (ftemp-32)*5/9
 # print(f"섭씨온도: {ctemp}")
 
 # 좀 더 세심한 출력양식 - 소수점 둘째자리까지 반올림
-print("섭씨온도: %2f" %(ctemp))
+print("섭씨온도: %.2f" %(ctemp))
 print(f"섭씨온도: {ctemp:.2f}")
